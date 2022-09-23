@@ -1,0 +1,45 @@
+.header{
+    width: 100vw;
+    height: 7rem;
+    padding: 1rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: #1B2430;
+    z-index: 100;
+   justify-content: flex-start;
+   
+}
+
+.header nav {
+    width: 35%;
+    
+}
+
+.header nav ul{
+    list-style: none;
+}
+
+.header nav ul li{
+    color: #DDDDDD;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.logo{
+   
+    margin-left: 10rem;
+   
+
+    
+}
+.logo a{
+    font-size: 2rem;
+    color: #ffffff;
+    font-weight: bold;
+    margin: none !important;
+}
+
+.cartButton{
+    margin-left: auto;
+}

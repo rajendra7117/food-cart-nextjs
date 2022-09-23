@@ -1,0 +1,11 @@
+.foodItem{
+    width: 17rem;
+    height: 12rem;
+    padding: 0.5rem;
+}
+
+.foodItem img{
+    width: 15rem;
+    height: 8rem;
+    border-radius: 50%;
+}
