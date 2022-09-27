@@ -2,14 +2,19 @@ import React, { useEffect, useState } from "react";
 import Category from "./Category";
 import styles from "../../styles/Categories.module.css";
 import useFetch from "../hooks/fetchHook";
+
 const FoodMenu = () => {
-  const [menu, setMenu] = useState([]);
+  
 
   const [isLoading, isError, data, fetchData] = useFetch();
+
+ 
+  
 
   useEffect(() => {
     fetchData(`https://www.themealdb.com/api/json/v1/1/categories.php`);
   }, []);
+
 
   let content;
 

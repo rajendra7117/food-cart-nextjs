@@ -1,28 +1,31 @@
 import React, { useState } from "react";
+import axios from "axios";
 const useFetch = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isError, setIsError] = useState(false);
   const [data, setData] = useState([]);
 
   const fetchData = async (url) => {
+    setIsLoading(true);
     try {
-      setIsLoading(true);
-      const response = await fetch(url);
-      if (!response.ok) {
+      const response = await axios.get(url);
+
+      if (response.status !== 200) {
         throw new Error("sorry something went wrong, please try again later");
       }
-      const data = await response.json();
-      setData(data);
+    if(response.data.meals===null){
+      throw new Error('sorry category not found with the given qeury')
+    }
+
+      setData(response.data);
       setIsLoading(false);
     } catch (err) {
       setIsError(true);
+      console.log('error')
     }
   };
-
-  console.log(isLoading)
 
   return [isLoading, isError, data, fetchData];
 };
 
-
-export default useFetch
+export default useFetch;

@@ -42,4 +42,32 @@
 
 .cartButton{
     margin-left: auto;
+    width: 7rem;
+    padding: 0.3rem;
+}
+
+.searchContainer{
+    width: auto;
+    margin-left: 5rem;
+    position: relative;
+    
+}
+
+.searchContainer input{
+    width: 12rem;
+    padding: 0.3rem;
+    border: 2px solid #1B2430;
+}
+.searchContainer input:placeholder-shown{
+    color: #1B2430;
+    font-weight: 300;
+    font-family: inherit;
+}
+
+.searchContainer input:focus{
+    outline: none;
+}
+
+.searchContainer button{
+    
 }

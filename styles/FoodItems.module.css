@@ -1,11 +1,29 @@
 .foodItem{
-    width: 17rem;
-    height: 12rem;
+    width: 22rem;
+    height: 18rem;
     padding: 0.5rem;
+
 }
 
 .foodItem img{
-    width: 15rem;
+    width: 94%;
     height: 8rem;
-    border-radius: 50%;
+   
+
+    
+}
+
+.itemDetails{
+    width: 100%;
+    padding-left: 0.5rem;
+text-align: left;
+}
+.itemOptions{
+    width: 10rem;
+    margin-left: auto;
+    text-align: right;
+    padding: 0.5rem;
+   border-radius: 0.1rem;
+    background-color: #DDDDDD;
+
 }

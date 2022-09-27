@@ -1,7 +1,18 @@
-import MainLayout from "../../components/Layout/MainLayout"
+import MainLayout from "../../components/Layout/MainLayout";
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
 
-const Cart = () => {
-    return <MainLayout><h1>Cart</h1></MainLayout>
-}
+const DynamicCartPage = dynamic(() => import("../../components/Cart/Cart"), {
+  suspense: true,
+});
+const CartPage = () => {
+  return (
+    <MainLayout>
+      <Suspense fallback={<h1>...loading</h1>}>
+        <DynamicCartPage />
+      </Suspense>
+    </MainLayout>
+  );
+};
 
-export default Cart
+export default CartPage;

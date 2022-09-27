@@ -1,0 +1,20 @@
+.overlay{
+    width: 100vw !important;
+    height: 100vh !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(107, 102, 102, 0.1);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: auto !important;
+    height: auto !important;
+    background-color: #fff;
+    align-self: center;
+    color: #000;
+}

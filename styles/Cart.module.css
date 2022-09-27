@@ -1,0 +1,108 @@
+.cart{
+    width: 50rem;
+    height: auto;
+    background-color: rgb(253, 253, 253);
+    color: #000;
+    margin-inline: auto;
+    border-radius: 0.3rem;
+
+}
+.cart h1{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+.items{
+    border-top: 1px solid #000;
+    width: 100%;
+    padding: 1rem;
+}
+
+.cartItem{
+    width: 90%;
+    padding: 0.5rem;
+    height: auto;
+    
+}
+
+
+.cartItem div{
+    width: 100%;
+    height: 100%;
+}
+
+
+.cartItem div img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 0.4rem;
+}
+.cartContainer{
+    justify-content: center !important;
+    text-align: left !important;
+    align-items: flex-start !important;
+    margin-left: 2rem;
+}
+
+.cartContainer h3{
+    margin: 0 !important;
+    margin-bottom: 0.2rem !important;
+}
+.cartContainer span{
+    margin: 0 !important;
+    padding-left: 0.2rem;
+    margin-top: 0.5rem !important;
+}
+
+
+.cartItem div h4 svg{
+    padding-top: 1rem;
+   
+}
+
+.cartButtons{
+    width: 5rem;
+    margin-left: auto;
+    justify-content: center !important;
+}
+
+.cartButtons button{
+    margin-left: 0.5rem;
+}
+
+.paymentSection{
+    border-top: 1px solid #000;
+    width: 100%;
+    padding: 1rem;
+    height: auto;
+}
+.subSection{
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subSection div{
+    width: 35%;
+}
+
+.subSection div span{
+    height: auto;
+    
+}
+
+
+.paymentButtons{
+    width: auto !important;
+    align-self: center;
+}
+
+.order{
+    width: 20rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.order div{
+    
+}

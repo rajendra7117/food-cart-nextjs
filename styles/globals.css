@@ -48,6 +48,9 @@ a {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+
+/* buttons */
+
 .button-1{
 width: auto;
 height: auto;
@@ -60,6 +63,7 @@ background-color: #000000;
   border: 3px solid #fff;
 color: #ffffff;
 font-weight: 700;
+cursor: pointer;
 }
 .button-2{
   width: auto;
@@ -73,11 +77,51 @@ background-color: #fff;
   border: 3px solid rgb(245, 80, 80);
 color: #000;
 font-weight: 700;
+cursor: pointer;
 }
+
+
+.button-3{
+  width: auto;
+height: auto;
+padding: 0.1rem;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: #000000;
+  border: 3px solid #000000;
+color: #ffffff;
+font-weight: 700;
+cursor: pointer;
+}
+
+.button-4{
+  width: auto;
+  padding: 0.3rem;
+  background-color: grey;
+  position: absolute;
+  right: 0;
+  outline: none;
+  border: none;
+  height: 100%;
+  cursor: pointer;
+}
+/* grid */
 
 .grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   gap: 1rem;
+
 }
+
+.grid-2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 1rem;
+  margin-left: 2.5rem;
+}
+
