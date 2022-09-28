@@ -1,0 +1,25 @@
+.orders{
+    width: 100vw;
+    height: auto;
+    padding: 1rem;
+}
+.order{
+    width: auto;
+    height: auto;
+}
+
+.orderItem{
+    width: 35rem;
+    height: 10rem;
+    padding: 0.6rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+.orderItem h3{
+    margin-right: 1rem;
+    margin-left: 0.4rem;
+    border: 1px solid rgb(132, 119, 119);
+    background-color: rgb(132, 119, 119);
+    border-radius: 0.2rem;
+    color: #fff !important;
+}

@@ -1,3 +1,10 @@
+.foodItemsContainer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .foodItem{
     width: 22rem;
     height: 18rem;

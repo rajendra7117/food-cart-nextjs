@@ -5,7 +5,7 @@ import { BiRupee } from "react-icons/bi";
 import { ImCross } from "react-icons/im";
 import { useDispatch } from "react-redux";
 import { cartSliceActions } from "../../store/CartSlice";
-import Modal from "../UI/Modal";
+
 const CartItems = ({ title, id, img, quantity, price }) => {
   const dispatch = useDispatch();
 

@@ -98,11 +98,28 @@
 }
 
 .order{
-    width: 20rem;
+    width: 30rem;
     height: auto;
     padding: 1rem;
 }
 
 .order div{
     
+}
+.order div button{
+margin-left: 0.5rem;
+}
+.emptyCart{
+
+    width: 30rem;
+    height: 15rem;
+    justify-content: space-around;
+   
+
+}
+
+.emptyCart a{
+    border: 1px solid #000;
+    padding: 0.5rem;
+    border-radius: 0.2rem;
 }

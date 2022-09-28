@@ -1,9 +1,12 @@
 import MainLayout from "../../components/Layout/MainLayout";
+import Orders from "../../components/orders/Orders";
 
-const Orders = () => {
-    return <MainLayout>
-        <h1>Orders</h1>
+const OrdersPage = () => {
+  return (
+    <MainLayout>
+      <Orders />
     </MainLayout>
-}
+  );
+};
 
-export default Orders;
+export default OrdersPage;
